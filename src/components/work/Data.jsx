@@ -38,7 +38,7 @@ export const projectsData = [
     {
         id: 4,
         image: microservices,
-        title: "Microservices Connector",
+        title: "Microservices Communication and Auditing System",
         category: "backend",
         url: "https://github.com/Hacode09/nest-rbtmq-jwt-auth-mservices",
         skills: "JavaScript, NestJs, RabbitMQ, JWT, MongoDB, HTML",
