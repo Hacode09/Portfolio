@@ -104,7 +104,7 @@ const WebDev = () => {
                     <div className="skills__data">
                         <i class="bx bx-badge-check"></i>
                         <div>
-                            <h3 className="skills__name">Post API</h3>
+                            <h3 className="skills__name">Rest API</h3>
                         </div>
                     </div>
 
