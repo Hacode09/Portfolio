@@ -24,7 +24,7 @@ export const projectsData = [
         category: "backend",
         url: "https://github.com/Hacode09/Nodejs-Chat-application",
         skills: "Node.Js, Web Socket, Chat Engine, JavaScript, HTML, CSS",
-        demo: "https://github.com/Hacode09/Nodejs-Chat-application",
+        demo: "https://github.com/Hacode09/Real-Time-Chat-App",
     },
 
     {
