@@ -8,13 +8,13 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm(
             "service_4100prf",
             "template_e32uctd",
             form.current,
             "meKm71qLAw4A9yOSO"
         );
+
         e.target.reset();
     };
 
@@ -67,6 +67,7 @@ const Contact = () => {
                                 name="name"
                                 className="contact__form-input"
                                 placeholder="Name"
+                                required
                             />
                         </div>
 
@@ -83,7 +84,7 @@ const Contact = () => {
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Message</label>
                             <textarea
-                                name="Message"
+                                name="message"
                                 cols="30"
                                 rows="10"
                                 className="contact__form-input"
