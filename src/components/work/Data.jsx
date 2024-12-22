@@ -5,10 +5,21 @@ import realtimechat from "../../assests/chatapp.avif";
 import microservices from "../../assests/microservices.png";
 import calculator from "../../assests/calculator.jpg";
 import commentsystem from "../../assests/CommentSystem.png";
+import gmailclone from "../../assests/gmail-clone.jpg";
 
 export const projectsData = [
+
     {
         id: 1,
+        image: gmailclone,
+        title: "Gmail-clone",
+        category: "full stack",
+        url: "https://github.com/Hacode09/gmail-clone",
+        skills: "React, JavaScript, HTML, CSS and MongoDB",
+        demo: "https://gmail-cl.netlify.app/emails/inbox",
+    },
+    {
+        id: 2,
         image: commentsystem,
         title: "Dynamic Comment System",
         category: "frontend",
@@ -18,7 +29,7 @@ export const projectsData = [
     },
 
     {
-        id: 2,
+        id: 3,
         image: realtimechat,
         title: "Real Time Chat Application",
         category: "backend",
@@ -28,7 +39,7 @@ export const projectsData = [
     },
 
     {
-        id: 3,
+        id: 4,
         image: gymImage,
         title: "Fitness Club",
         category: "frontend",
@@ -37,7 +48,7 @@ export const projectsData = [
         demo: "https://er-rahulgym-web.netlify.app/",
     },
     {
-        id: 4,
+        id: 5,
         image: InstaClone,
         title: "Instagram Clone",
         category: "frontend",
@@ -47,7 +58,7 @@ export const projectsData = [
     },
 
     {
-        id: 5,
+        id: 6,
         image: microservices,
         title: "Microservices Communication and Auditing System",
         category: "backend",
@@ -57,7 +68,7 @@ export const projectsData = [
     },
 
     {
-        id: 6,
+        id: 7,
         image: Codeditor,
         title: "Code Editor",
         category: "frontend",
@@ -67,7 +78,7 @@ export const projectsData = [
     },
 
     {
-        id: 7,
+        id: 8,
         image: calculator,
         title: "Calculator",
         category: "frontend",
@@ -89,6 +100,6 @@ export const projectsNav = [
         name: "backend",
     },
     {
-        name: "projects",
+        name: "full stack",
     },
 ];

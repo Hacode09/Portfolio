@@ -8,17 +8,16 @@ const About = () => {
     return (
         <section className="section about" id="about">
             <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My introduction</span>
+            {/* <span className="section__subtitle">My introduction</span> */}
             <div className="about__container container grid">
                 <img src={myprofile3} alt="" className="about__img" />
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Hii, I’m a Software Developer who has passion for building clean web applications
-                        with intuitive functionalities. I enjoy the process of turning ideas into
-                        reality using creative solutions. I’m always curious about learning new skills,
-                        tools, and concepts. As i'm a Developer and familiar with a wide range of programming
-                        utilities and languages! ;{")"}
+                        Hii, I’m a Full Stack Developer with experience in building scalable, production-grade web applications. Skilled in JavaScript, React, Node.js, NestJS,
+                        MongoDB and SQL, with hands-on expertise in developing dynamic user interfaces and implementing backend microservices. Successfully contributed to
+                        projects like Skill IQ, delivering key features such as candidate report UIs and enhancing system performance. Adept at collaborating in agile teams,
+                        integrating RESTful APIs, and optimizing code with a focus on clean architecture and user experience ;{")"}
                     </p>
 
                     <motion.a
