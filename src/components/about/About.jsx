@@ -14,10 +14,9 @@ const About = () => {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Hii, I’m a Full Stack Developer with experience in building scalable, production-grade web applications. Skilled in JavaScript, React, Node.js, NestJS,
-                        MongoDB and SQL, with hands-on expertise in developing dynamic user interfaces and implementing backend microservices. Successfully contributed to
-                        projects like Skill IQ, delivering key features such as candidate report UIs and enhancing system performance. Adept at collaborating in agile teams,
-                        integrating RESTful APIs, and optimizing code with a focus on clean architecture and user experience ;{")"}
+                        I am passionate about creating innovative and high-quality websites,
+                        always striving to push the boundaries of what’s possible with code.
+                        Still learning and exploring what I do ;{")"}
                     </p>
 
                     <motion.a

@@ -58,9 +58,11 @@ const Data = () => {
             </h1>
             <h3 className="home__subtitle">Full Stack Developer</h3>
             <p className="home__description">
-                I am passionate about creating innovative and high-quality websites, always
-                striving to push the boundaries of what’s possible with code. Still learning
-                and exploring what I do.
+                I'm a Full Stack Developer experienced in building scalable web applications
+                with JavaScript, React, Node.js, NestJS, MongoDB, and SQL. I’ve worked on
+                projects like Skill IQ, contributing to candidate report UIs and improving
+                system performance. I collaborate well in agile teams, integrate RESTful APIs,
+                and focus on clean architecture and user experience ;{")"}
             </p>
             <motion.a
                 href="#contact"

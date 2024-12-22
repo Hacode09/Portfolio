@@ -151,7 +151,7 @@ const Skills = () => {
             <div className="skills__box">
                 <div className="skills__group">
                     <div className="skills__data">
-                        <span className="skills__name">Frontend</span>
+                        <span className="skills__name">Frontend :</span>
                         <span className="skills__name">HTML</span>
                         <span className="skills__name">CSS</span>
                         <span className="skills__name">Bootstrap</span>
@@ -161,7 +161,7 @@ const Skills = () => {
                     </div>
 
                     <div className="skills__data">
-                        <span className="skills__name">Backend</span>
+                        <span className="skills__name">Backend :</span>
                         <span className="skills__name">Node</span>
                         <span className="skills__name">Nest</span>
                         <span className="skills__name">Express</span>
@@ -169,26 +169,26 @@ const Skills = () => {
                     </div>
 
                     <div className="skills__data">
-                        <span className="skills__name">Database</span>
+                        <span className="skills__name">Database :</span>
                         <span className="skills__name">MongoDB</span>
                         <span className="skills__name">SQL</span>
                     </div>
 
                     <div className="skills__data">
-                        <span className="skills__name">Languages</span>
+                        <span className="skills__name">Languages :</span>
                         <span className="skills__name">C++</span>
                         <span className="skills__name">Java</span>
                         <span className="skills__name">Python</span>
                     </div>
 
                     <div className="skills__data">
-                        <span className="skills__name">Core Concepts</span>
+                        <span className="skills__name">Core Concepts :</span>
                         <span className="skills__name">OOPS</span>
                         <span className="skills__name">DSA</span>
                     </div>
 
                     <div className="skills__data">
-                        <span className="skills__name">Version Control</span>
+                        <span className="skills__name">Version Control :</span>
                         <span className="skills__name">Git</span>
                         <span className="skills__name">GitHub</span>
                     </div>
