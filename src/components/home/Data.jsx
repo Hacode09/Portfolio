@@ -56,10 +56,11 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Full Stack Engineer</h3>
+            <h3 className="home__subtitle">Full Stack Developer</h3>
             <p className="home__description">
-                I'm passionate about building cutting edge, high quality code written
-                websites. Still learning and exploring what I do.
+                I am passionate about creating innovative and high-quality websites, always
+                striving to push the boundaries of what’s possible with code. Still learning
+                and exploring what I do.
             </p>
             <motion.a
                 href="#contact"
