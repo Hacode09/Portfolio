@@ -13,11 +13,6 @@ const WorkItems = ({ item }) => {
             viewport={{ once: true, amount: 0.8 }}
         >
             <img src={item.image} alt={item.image} className="work__img" />
-            {/* <div className="overlay">
-        <div className="content">
-          <p>This is the workitem description section</p>
-        </div>
-      </div> */}
             <h3 className="work__title">{item.title}</h3>
             <span className="work__skills"> {item.skills}</span>
             <div className="work__button">
@@ -27,7 +22,6 @@ const WorkItems = ({ item }) => {
                 <a href={item.demo} className="work__link ">
                     {item.demo ? "DEMO" : ""}
                 </a>
-                {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </div>
         </motion.div>
     );

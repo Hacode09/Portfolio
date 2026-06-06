@@ -10,7 +10,7 @@ const Social = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <i class="uil uil-whatsapp"></i>
+                <i className="uil uil-whatsapp"></i>
             </a>
 
             <a
@@ -19,7 +19,7 @@ const Social = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <i class="uil uil-linkedin-alt"></i>
+                <i className="uil uil-linkedin-alt"></i>
             </a>
 
             <a
@@ -28,7 +28,7 @@ const Social = () => {
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                <i class="uil uil-github-alt"></i>
+                <i className="uil uil-github-alt"></i>
             </a>
         </div>
     );

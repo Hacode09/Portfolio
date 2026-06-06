@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 const Data = () => {
@@ -12,7 +12,7 @@ const Data = () => {
                     viewBox="0 0 48 48"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    class="home__hand"
+                    className="home__hand"
                 >
                     <path
                         d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -56,14 +56,9 @@ const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Full Stack Developer</h3>
-            <p className="home__description">
-                I'm a Full Stack Developer experienced in building scalable web applications
-                with JavaScript, React, Node.js, NestJS, MongoDB, and SQL. I’ve worked on
-                projects like Skill IQ, contributing to candidate report UIs and improving
-                system performance. I collaborate well in agile teams, integrate RESTful APIs,
-                and focus on clean architecture and user experience ;{")"}
-            </p>
+            <h3 className="home__subtitle">Full Stack Engineer</h3>
+            <ToggleSummary />
+
             <motion.a
                 href="#contact"
                 className="button button--flex"
@@ -72,7 +67,7 @@ const Data = () => {
             >
                 Say Hello
                 <svg
-                    class="button__icon"
+                    className="button__icon"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -89,6 +84,47 @@ const Data = () => {
                     ></path>
                 </svg>
             </motion.a>
+        </div>
+    );
+};
+
+const ToggleSummary = () => {
+    const [expanded, setExpanded] = useState(false);
+
+    const part1 = `Full Stack Engineer with 2+ years of experience in building scalable high performance web applications with strong expertise in RESTful API integration, cloud deployment (AWS), and CI/CD pipelines. Contributed to a high-volume enterprise-grade payments platform at Blackhawk Network`;
+
+    const part2 = `— delivered end-to-end features and resolved critical production issues across complex service boundaries. Certified in Generative AI, Prompt Engineering, and micro1 technical assessment, with demonstrated problem-solving skills in React, JavaScript, TypeScript, Java, Spring Boot, Python, OOP, DSA, SQL, microservices, application performance optimization, and version control.`;
+
+    return (
+        <div>
+            <p className="home__description">
+                {part1}
+                {!expanded ? (
+                    <>
+                        <span>... </span>
+                        <button
+                            type="button"
+                            className="home__see-more"
+                            onClick={() => setExpanded(true)}
+                            aria-expanded={expanded}
+                        >
+                            See more
+                        </button>
+                    </>
+                ) : (
+                    <>
+                        <span>{part2} </span>
+                        <button
+                            type="button"
+                            className="home__see-more"
+                            onClick={() => setExpanded(false)}
+                            aria-expanded={expanded}
+                        >
+                            See less
+                        </button>
+                    </>
+                )}
+            </p>
         </div>
     );
 };

@@ -8,14 +8,30 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm(
-            "service_4100prf",
-            "template_e32uctd",
-            form.current,
-            "meKm71qLAw4A9yOSO"
-        );
 
-        e.target.reset();
+        emailjs
+            .sendForm(
+                "service_gmrcmh4",
+                "template_e32uctd",
+                form.current,
+                "JIEk98uvNPUZ4n9Xl"
+            )
+            .then((result) => {
+                // success
+                alert("Message sent successfully.");
+                e.target.reset();
+            })
+            .catch((error) => {
+                // show a helpful message for common EmailJS errors
+                console.error("EmailJS error:", error);
+                if (error && error.text && error.text.includes("Invalid grant")) {
+                    alert(
+                        "Failed to send: Gmail connection expired. Reconnect your Gmail account in EmailJS dashboard."
+                    );
+                } else {
+                    alert("Failed to send message. Please try again later.");
+                }
+            });
     };
 
     return (
@@ -98,7 +114,7 @@ const Contact = () => {
                         >
                             Send Message
                             <svg
-                                class="button__icon"
+                                className="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
                                 height="24"
