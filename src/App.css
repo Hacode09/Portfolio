@@ -148,7 +148,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 2rem 0 2rem;
 }
 
 .section__title {
@@ -169,9 +169,11 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
+  width: min(100%, 968px);
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+  padding-inline: 1rem;
 }
 
 .grid {
@@ -232,7 +234,7 @@ img {
 /* For medium devices */
 @media screen and (max-width: 768px) {
   body {
-    margin: 0 0 var(--header-height) 0;
+    margin: var(--header-height) 0 0 0;
   }
 
   .section {

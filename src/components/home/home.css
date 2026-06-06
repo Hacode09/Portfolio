@@ -10,6 +10,13 @@
     column-gap: 2rem;
     align-items: center;
   }
+
+  .home__img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+  }
+
   .home__social {
     display: grid;
     grid-template-columns: max-content;
@@ -81,7 +88,7 @@
   }
   
   .home__img {
-    background: url(../../assests/myprofile.jpg);
+    background: url(../../assests/rahul.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -231,6 +238,10 @@
   .home__img {
     margin: 0 auto;
   }
+
+  .home__data .button {
+    margin-top: 1.75rem;
+  }
 }
 
 /* For extra small devices */
@@ -243,6 +254,33 @@
   .home__hand {
     width: 22px;
     height: 22px;
+  }
+}
+
+/* Inline 'see more' text-button */
+.home__see-more {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: var(--first-color);
+  cursor: pointer;
+  font-weight: var(--font-medium);
+  padding: 0;
+  margin-left: 0.25rem;
+  text-decoration: underline;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.home__see-more:hover,
+.home__see-more:focus {
+  outline: none;
+  text-decoration: underline;
+}
+@media screen and (max-width: 576px) {
+  .home__see-more {
+    font-size: 0.92rem;
+    margin-left: 0.15rem;
   }
 }
   

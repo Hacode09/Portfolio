@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import myprofile3 from "../../assests/myimg.jpeg";
+import myprofile3 from "../../assests/rahulkumarprofile.jpeg";
 import Info from "./Info";
 import { motion } from "framer-motion";
 
@@ -8,20 +8,24 @@ const About = () => {
     return (
         <section className="section about" id="about">
             <h2 className="section__title">About Me</h2>
-            {/* <span className="section__subtitle">My introduction</span> */}
             <div className="about__container container grid">
                 <img src={myprofile3} alt="" className="about__img" />
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        I am passionate about creating innovative and high-quality websites,
-                        always striving to push the boundaries of what’s possible with code.
-                        Still learning and exploring what I do ;{")"}
+                        Building scalable web applications and enterprise-grade software with 2+ years of experience in frontend, backend, cloud deployment, and microservices architecture. Passionate about creating high-performance products that solve real-world problems and deliver exceptional user experiences.;{")"} <a
+                href="https://www.linkedin.com/in/er-rahul/"
+                className="home__social-icon-linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="uil uil-linkedin-alt"></i>
+            </a>
                     </p>
 
                     <motion.a
                         download=""
-                        href="https://drive.google.com/file/d/1HD7LXOziLntdlsR6TupRgGx6pOkJQRdw/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/17zwcrL5_DcmVeBpBo4VJ2XuMUHQSK67s/view?usp=drive_link"
                         className="button button--flex"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 1.0 }}

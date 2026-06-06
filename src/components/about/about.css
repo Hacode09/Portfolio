@@ -1,12 +1,13 @@
 .about__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(280px, 1fr));
     align-items: center;
     column-gap: 4rem;
+    margin-top: 4.5rem;
   }
  
   .about__img {
-    width: 350px;
-    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 350px;
     justify-self: center;
   }
   
@@ -77,8 +78,13 @@
   /* For medium devices */
   
   @media screen and (max-width: 576px) {
+    .about__container {
+      margin-top: 1.5rem;
+    }
+
     .about__info {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
     }
   
     .about__description {
