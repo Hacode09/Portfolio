@@ -6,7 +6,7 @@ const experienceItems = [
     {
         company: "Blackhawk Networks",
         role: "Software Engineer",
-        location: "Kerala, india  / Hybrid",
+        location: "Bangalore, india  / Hybrid",
         duration: "June 2025 - May 2026",
         skills: ["React.js", "TypeScript","JavaScript", "Java", "Spring Boot", "GraphQL", "REST APIs", "Tailwind CSS", "MongoDB", "Postman", "Jenkins", "AWS", "Claude AI", "SonarQube", "Git/GitHub", "Agile / Scrum", "Microservices", "CI/CD",  "Performance Optimization", "Production Debugging", "Production Deployment", "Unit Testing"],
         details: [
